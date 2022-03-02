@@ -1,0 +1,10 @@
+A Queue is an ordered sequence of items with FIFO characteristic: First In First Out. In other words, the items in a queue are removed in the order that they were inserted in the queue. Queues can be implemented in different ways. A very simple, but inefficient, implementation is to store the items of the queue in an array where the front of the queue is always at index 0 of the array and the new items are always added to the end of the array. For example, if the queue is at the beginning empty, and values 5, 3, 9, and 3 are inserted into the queue, respectively, the first remove, removes 5 and all the values 3, 9, and 3 are shifted to the start of the array so 3 (the front of the queue) is placed at index 0. You are to implement this class template using dynamic memory allocation. Complete the class template declared in the attached header file as described below: 
+
+Add the implementation of the declared methods to the file (out of the class declaration, but in the same file).
+Implement a copy constructor and a destructor for the class template.
+Overload the assignment operator.
+Overload the addition operator to merge two queues into a new queue.
+Overload the "+=" operator to add a single item to the end of the queue.
+Overload the "--" operator to remove the item at the front of the queue.
+Overload the equality and inequality operator to compare two queue objects. Two queue objects are equal if their length is equal and all of their corresponding items are equal.
+Overload the stream insertion operator (<<) to insert all the items of the queue to an output stream
